@@ -21,7 +21,7 @@ This is a very incomplete project. It's missing integration with Alpaca, UI thin
   - Live: Real money, real orders, real time.
   - Paper: Same as live but on the paper API URL.
 
-## Features
+## UI Snapshots
 
 Sorry about the low quality GIFs. The UI doesn't look that bad.
 

@@ -5,11 +5,11 @@ This is a very incomplete project. It's missing integration with Alpaca, UI thin
 ## Features
 
 - Custom scheduler for a "set it and forget it" application.
-- Integrates with polygon.io to pull historical raw trades and quotes. (this project only includes one week of ticks in Jan 2019 for AAPL, SPY, QQQ, MSFT, GLD, AMD)
+- Integrates with polygon.io to pull historical raw trades and quotes. (this project only includes one week of thinned out ticks in Jan 2019 for AAPL, SPY, QQQ, MSFT, GLD, AMD)
 - Takes trades and quotes ticks and creates custom "candles" to have values of your choice: Average Trade Price, Trade Price Open/Close/High/Low, Average Bid Price, Average Ask Price, and Trade Volume.
 - Configure "candle" timespan to HalfSecond, OneSecond, OneMinute, FiveMinutes, FifteenMinutes, HalfHour, and OneHour. (Currently set to HalfSecond).
 - Multithreaded via Task.Factory
-- Easily add new stategies by just creating a new strategy file in /AlgoTrader/Strategies/ that inherits from Strategy. Reflection is used to detect new strategies and will automatically incorporate it when running.
+- Easily add new stategies by just creating a new strategy file in AlgoTraderExample/AT/AlgoTrader/Strategies/ that inherits from Strategy. Reflection is used to detect new strategies and will automatically incorporate it when running. Project has 4 random example strategies for demonstration purposes.
 - Fast database lookups when retrieving quotes and trade ticks.
 - Uses CefSharp to use a embedded chromium browser as the UI. Files are in AlgoTraderExample\AT\compiled\html
 - Caches to disk for faster loading after a "candle" series is constructed from DBs.
@@ -38,4 +38,5 @@ Sorry about the low quality GIFs. The UI doesn't look that bad.
 4) Open the soluton.
 5) Set the build to x64 that outputs to that /compiled/ folder.
 6) Build/Debug (should launch the application)
+7) Click "Start Schedular" and it should start the GatherStats mode and simulate trades for about a week.
 

@@ -1,6 +1,6 @@
 # Algorithmic Trader
 
-This is a very incomplete project. It's missing integration with Alpaca, UI things, and there are some kinks with the backtesting to be worked out.
+This is a very incomplete project. It's missing integration with Alpaca, UI things, etc. Also, there are a lot of issues that need to be fixed before this becomes actually usable in the wild.
 
 ## Features
 

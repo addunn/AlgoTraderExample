@@ -1,6 +1,6 @@
 # Algorithmic Trader
 
-This was an ambitious project I was working on. Instead of completing it, I decided to make it public to help me get a job. There aren't many C# projects like this out there. It's maybe 80% complete. It's missing integration with Alpaca, UI things, etc. Also, there are issues that need to be fixed before this becomes actually usable in the wild.
+This was an ambitious project I was working on. There aren't many C# projects like this out there. It's maybe 80% complete. It's missing integration with Alpaca, UI things, etc. Also, there are issues that need to be fixed before this becomes actually usable in the wild.
 
 ## Features
 
